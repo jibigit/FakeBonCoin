@@ -1,0 +1,19 @@
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+
+}
+
+header {
+	height: 60px;
+	position: fixed;
+	background: #F56B2A;
+	width: 100%;
+	top: 0;
+	left: 0;
+
+}
