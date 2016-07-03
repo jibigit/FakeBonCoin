@@ -339,3 +339,39 @@ footer {
 	
 }
 
+.links {
+	
+	padding-left: 140px;
+	height: 70%;
+	padding-top: 10px;
+
+}
+.links ul {
+	list-style: none;
+}
+
+.links ul li a{
+	
+	color: white;
+}
+
+.col1{
+	width: 250px;
+	float: left;
+}
+
+.col2 {
+	width: 250px;
+	float: left;
+	padding-left: 20px;
+}
+
+.col3 {
+	width: 250px;
+	float: left;
+}
+
+.col4 {
+	width: 250px;
+	float: left;
+}
