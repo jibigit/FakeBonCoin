@@ -252,4 +252,19 @@ h2 span {
 }
 
 
+/*   open little article under the map */
+
+
+article{
+	width: 1066px;
+	height: 60px;
+	margin: auto;
+}
+article p {
+	margin: 0 auto;
+	font-size: 13px;
+}
+
+
+
 
