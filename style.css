@@ -65,6 +65,14 @@ padding: 20px 300px;
 	
 }
 
+nav img {
+	width: 180px;
+	float: left;
+	margin-top: 13px;
+	margin-left: 70px;
+}
+
+
 /* ------------------- OPEN LOGIN BUTTON ---------------------------------------*/
 
 
@@ -85,29 +93,51 @@ padding: 20px 300px;
 }
 
 .login img  {
-
- 		position: fixed;
-		width: 15px;
-		top: 8px;
-		right: 20%;
-		
- 
-        
-		  
+ 	position: fixed;
+	width: 15px;
+	top: 8px;
+	right: 20%;
+				  
 }
 
 .login:hover img {
-  background:#FFF;
-  opacity: 0.5;
-  
+    background:#FFF;
+    opacity: 0.5; 
  }
 
 
 .login:hover {
-
 	background-color: white;
 	color: #F56B2A;
 	font-size: bold;
+}
+
+
+h1 {
+	font-size: 14px;
+}
+
+/* -----------------------ASIDE LEFT----------------------*/
+
+h2 {
+	font-size: 14px;
+	margin-left: 35px;
+}
+
+h2 span {
+	color: #F56B2A;
+}
+
+.asideleft {
+	margin-top: 70px;
+	width: 405px;
+	margin-left: 100px;
+	display: inline-block;
+	float: left;
+	font: white;
 
 }
+
+
+
 
