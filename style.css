@@ -119,7 +119,7 @@ h1 {
 
 
 
-/* -----------------------OPEN ASIDE LEFT SECTION----------------------*/
+/* --------------------------------------OPEN ASIDE LEFT SECTION--------------------------------*/
 
 h2 {
 	font-size: 14px;
@@ -140,7 +140,7 @@ h2 span {
 
 }
 
-						/* --------------OPEN 2 BUTTONS ASIDE LEFT--------*/
+/* --------------OPEN 2 BUTTONS ASIDE LEFT--------*/
 
 
  .buttons-asideleft {
@@ -157,7 +157,7 @@ h2 span {
 
 
 .button1 {
-	background-color: #4C94EF;       /* -------------BLUE BUTTON--------*/
+	background-color: #4C94EF;       /* blue button*/
 
 	border:none;
 	border-radius: 5px;
@@ -182,7 +182,7 @@ h2 span {
 	
 	background-color: white;
 	border: 1px solid #4C94EF;
-	border-radius: 5px;                   /* -------------WHITE BUTTON--------*/
+	border-radius: 5px;               /* white button*/
 	color: #4C94EF;
 	width: 340px;
 	height: 40px;
@@ -195,7 +195,8 @@ h2 span {
 	background-color: #AFEEEE;
 
 }
-					/* -------------CLOSE 2 BUTTONS ASIDE LEFT--------*/
+
+/* -------------CLOSE 2 BUTTONS ASIDE LEFT--------*/
 
 
 /*add pub on aside left*/
@@ -206,10 +207,10 @@ h2 span {
 
  }
 
-						/* ------------- CLOSE ASIDE LEFT--------*/
+/* ------------- CLOSE ASIDE LEFT--------*/
 
 
-/* ------------- OPEN CONTENT MAP SECTION--------*/
+/* -------------------------------------------- OPEN CONTENT MAP SECTION-------------------------*/
 										
 .contentmap {
 	width: 438px;
@@ -218,10 +219,10 @@ h2 span {
 	float: left;
 }
 
-					/* ------------- CLOSE CONTENT MAP SECTION--------*/
+/* ------------- CLOSE CONTENT MAP SECTION--------*/
 
 
-/* ------------- OPEN ASIDE RIGHT SECTION--------*/
+/* ---------------------------------- OPEN ASIDE RIGHT SECTION-------------------------------*/
 
 .asideright {
 	display: inline-block;
@@ -229,15 +230,16 @@ h2 span {
 	
 	
 }
-.asideright ul {				/* Delete puce of ul + right align REGIONS */	
+.asideright ul {	      /* Delete puce of ul + right align REGIONS */	
 	text-align: right;
 	list-style: none;
 
 
 }
 
+/* Change colors REGIONS ul */ 
 
-.asideright ul li a {           /* Change colors REGIONS ul */        
+.asideright ul li a {                  
 
 	color: #336699;
 	text-decoration: none;
@@ -246,7 +248,9 @@ h2 span {
 
 }
 
-.asideright ul li a:hover {           /* Hover REGIONS */        
+/* Hover REGIONS */  
+
+.asideright ul li a:hover {                 
 
 	color: #F56B2A;
 }
@@ -263,8 +267,75 @@ article{
 article p {
 	margin: 0 auto;
 	font-size: 13px;
+
+}
+
+   /*---------------------------------- OPEN INDEX SECTION -------------------------------- */        
+
+
+.index {
+	position: static;
+	display: block;
+	height: 600px;
+	background-color: #F2F2F2;
+	font-size: 13px;
+
+}
+.index ul{
+	list-style: none;
+
+	
+}
+
+.index ul li a {
+	color: #336699;
+	text-decoration: none;
+}
+
+.index ul li{
+     margin:5px 5px; 
 }
 
 
+/*  OPEN 4 columns in index SECTION */
 
+.colonne1 {
+	
+	display: block;
+	float: left;
+	width: 150px;
+	padding-left: 144px;		
+}
+
+.colonne2 {
+	float: left;
+	width: 150px;
+	margin-left: 120px;
+}
+
+
+.colonne3 {
+	float: left;
+	width: 150px;
+	padding-left: 100px;
+}
+
+.colonne4 {
+	padding-top: 1px;
+	margin-left: 900px;
+}
+
+/*  CLOSE 4 columns in index SECTION */
+
+
+
+                      /*-----------------------------OPEN FOOTER------------------------- */
+
+
+footer {
+	background-color: #474747;
+	height: 325px;
+
+	
+}
 
