@@ -17,3 +17,97 @@ header {
 	left: 0;
 
 }
+
+   /* ------------------- OPEN NAV SECTION ---------------------------------------*/
+
+nav {
+	position: relative;
+
+
+}
+
+
+.logo {
+	width: 160px;
+	margin-left: 122px;			/* <----------------LOGO BON COIN ----------------*/
+	margin-top: 5px;
+}
+
+
+/* ------------------- OPEN NAVBAR ---------------------------------------*/
+
+.navbar {
+position: inline-block;
+margin-top: 0px;
+width: 700px;
+padding: 20px 300px;
+
+}
+
+
+
+.navbar li {
+	display: inline;
+	padding-top: 10px;
+	font-size: 14px;
+	padding: 10px;
+
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;	
+}
+
+.navbar a:hover {
+	text-decoration: underline;
+	
+}
+
+/* ------------------- OPEN LOGIN BUTTON ---------------------------------------*/
+
+
+.login {
+	position: absolute;
+	height: 40px;
+	top: 10px;
+	right: 140px;
+	width: 160px;
+	background-color: #F56B2A;
+	color: white;
+	border: 2px solid white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bolder;
+
+
+}
+
+.login img  {
+
+ 		position: fixed;
+		width: 15px;
+		top: 8px;
+		right: 20%;
+		
+ 
+        
+		  
+}
+
+.login:hover img {
+  background:#FFF;
+  opacity: 0.5;
+  
+ }
+
+
+.login:hover {
+
+	background-color: white;
+	color: #F56B2A;
+	font-size: bold;
+
+}
+
