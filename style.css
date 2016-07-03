@@ -117,7 +117,9 @@ h1 {
 	font-size: 14px;
 }
 
-/* -----------------------ASIDE LEFT----------------------*/
+
+
+/* -----------------------OPEN ASIDE LEFT SECTION----------------------*/
 
 h2 {
 	font-size: 14px;
@@ -138,7 +140,7 @@ h2 span {
 
 }
 
-						/* --------------BUTTONS ASIDE LEFT--------*/
+						/* --------------OPEN 2 BUTTONS ASIDE LEFT--------*/
 
 
  .buttons-asideleft {
@@ -193,13 +195,61 @@ h2 span {
 	background-color: #AFEEEE;
 
 }
+					/* -------------CLOSE 2 BUTTONS ASIDE LEFT--------*/
 
-											/* -------------ADD PUB TO ASIDE LEFT--------*/
+
+/*add pub on aside left*/
+
 .pub {
  	width:280px;
  	margin-left: 90px;
 
  }
+
+						/* ------------- CLOSE ASIDE LEFT--------*/
+
+
+/* ------------- OPEN CONTENT MAP SECTION--------*/
+										
+.contentmap {
+	width: 438px;
+	margin-top: 85px;
+	margin-left: 40px;
+	float: left;
+}
+
+					/* ------------- CLOSE CONTENT MAP SECTION--------*/
+
+
+/* ------------- OPEN ASIDE RIGHT SECTION--------*/
+
+.asideright {
+	display: inline-block;
+	margin-top: 68px;
+	
+	
+}
+.asideright ul {				/* Delete puce of ul + right align REGIONS */	
+	text-align: right;
+	list-style: none;
+
+
+}
+
+
+.asideright ul li a {           /* Change colors REGIONS ul */        
+
+	color: #336699;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+
+}
+
+.asideright ul li a:hover {           /* Hover REGIONS */        
+
+	color: #F56B2A;
+}
 
 
 
