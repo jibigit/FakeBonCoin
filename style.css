@@ -37,7 +37,7 @@ nav {
 /* ------------------- OPEN NAVBAR ---------------------------------------*/
 
 .navbar {
-position: inline-block;
+
 margin-top: 0px;
 width: 700px;
 padding: 20px 300px;
@@ -109,7 +109,7 @@ nav img {
 .login:hover {
 	background-color: white;
 	color: #F56B2A;
-	font-size: bold;
+	font-weight: bold;
 }
 
 
@@ -172,7 +172,7 @@ h2 span {
 
 	
   opacity: 0.8;
-  filter:alpha(opacity=50); 
+  
    border:0; 
 
 }
@@ -374,4 +374,91 @@ footer {
 .col4 {
 	width: 250px;
 	float: left;
+}
+
+@media screen and (min-device-width: 220px) and (max-device-width: 768px) {
+
+.pub   {
+	display: none;
+}
+
+.buttons-asideleft {
+ display: none;
+ }
+ h2 {
+ 	display: none;
+ }
+
+.login {
+	display: none;
+
+}
+
+
+
+.navbar {
+	display: none;
+}
+
+.asideright {
+	display: none;
+}
+
+p {
+	display: none;
+}
+
+footer {
+	display: none;
+}
+
+.index {
+	display: none;
+}
+
+}
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1280px){
+.buttons-asideleft {
+ display: none;
+ }
+ h2 {
+ 	display: none;
+ }
+
+.login {
+	display: none;
+
+}
+
+
+
+.navbar {
+	display: none;
+}
+
+.asideright {
+	display: none;
+}
+
+p {
+	display: none;
+}
+
+footer {
+	display: none;
+}
+
+.index {
+	display: none;
+}
+
+.pub   {
+	display: none;
+}
+
+.login {
+	display: none;
+}
 }
